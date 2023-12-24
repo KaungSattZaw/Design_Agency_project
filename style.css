@@ -45,16 +45,20 @@ span{
     text-align: center;
   }
 
-  .tile-image{
-    display: inline;
-    object-fit: cover;
+    .card {
     width: 100%;
-  }
-
-  .card{
-    flex: 1 1 100%;
+    display: block;
+    margin-bottom: 30px;
     text-align: justify;
   }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
 
 }
 
